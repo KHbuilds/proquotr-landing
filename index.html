@@ -821,7 +821,7 @@ document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
 
 // ── WAITLIST ──
 function submitEmail(email){
-  fetch('https://formspree.io/f/YOUR_FORM_ID',{
+  fetch('https://formspree.io/f/meerebzp',{
     method:'POST',
     headers:{'Content-Type':'application/json','Accept':'application/json'},
     body:JSON.stringify({email,source:'proquotr-waitlist'})
